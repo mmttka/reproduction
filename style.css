@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #ebe5e5;
+  /* text-alignは継承されるプロパティなので、imgだけではなくpやh1にも適応される */
+  text-align: center;
+  padding: 32px 0;  
+}
+h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 16px;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+h3 {
+  margin: 16px 0 0;
+  font-weight: normal;
+  font-size: 20px;
+}
+header img {
+  border-radius: 50%;
+  width: 128px;
+}
+main {
+  padding: 64px 0;
+}
+section {
+  /* 画像の幅と合わせて、width=400pxとしている */
+  width: 400px;
+  margin: 64px auto;
+}
+section p {
+  margin-top: 16px;
+  line-height: 1.8;
+}
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 64px 0;
+}
+small {
+  font-size: 14px;
+  color: #aaa;
+}
+a:hover {
+  opacity: .7;
+}
+address {
+  margin-top: 16px;
+}
+
